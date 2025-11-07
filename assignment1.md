@@ -34,10 +34,21 @@ Now make sure that if this container is getting run by Mohan then Mohan should b
 ## Part 1
 ### tree
 ```
-ubuntu@ip-172-31-47-65:~/assignment1/part1$ tree
+ubuntu@ip-172-31-47-65:~/assignment1$ tree
 .
-├── Dockerfile
-└── entrypoint.sh
+├── part1
+│   ├── Dockerfile
+│   └── entrypoint.sh
+└── part2
+    └── ninja_access
+        ├── Dockerfile
+        ├── data
+        │   └── ninjas
+        │       ├── Mayank
+        │       ├── Mohan
+        │       ├── Shikha
+        │       └── Uma
+        └── setup.sh
 ```
 
 ### vi entrypoint.sh
